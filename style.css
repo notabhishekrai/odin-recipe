@@ -3,3 +3,38 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.logo{
+    font-size: 36px;
+    margin-bottom: 40px;
+    background-color: hsla(30, 100%, 50%, 1);
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.links{
+    text-align: center;
+}
+
+.links > li{
+    display: inline-block;
+    
+}
+
+.links > li + li{
+    margin-left: 50px;
+}
+
+.links > li > a{
+    text-decoration: none;
+    font-size: 20px;
+    color: hsla(20, 50%, 40%, 1);
+    font-family: verdana, serif;
+    font-style: italic;
+}
+
+.links > li > a:hover{
+    text-decoration: underline;
+    opacity: .7;
+}
